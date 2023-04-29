@@ -1,0 +1,13 @@
+class Soldier():
+    def __init__(self, name, favorite_wk):
+        self.name = name
+        self.favorite_wk = favorite_wk
+        
+    def Work(self):
+            print(self.name + " is doing " + self.favorite_wk + " this morning")
+            
+        
+Smith = Soldier('SPC Smith',' Biceps and Back ')
+Smith.Work()
+Reed = Soldier('SGT Reed','cardio')
+Reed.Work()
